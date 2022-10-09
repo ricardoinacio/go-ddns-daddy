@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "go-ddns-daddy"
+version = "0.1.0"
+description = "Python cli app to update GoDaddy's A record"
+authors = ["Ricardo Inacio Alvares e Silva <ricardoinacio@me.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+packages = [{include = "go_ddns_daddy"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
